@@ -1,0 +1,22 @@
+{
+  "name": "sage-nfm-api",
+  "version": "1.0.0",
+  "description": "Sistema SAGE - Neuropsicológico de Mapeamento Funcional | API para autogestão TDAH",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.0",
+    "redis": "^4.6.0"
+  },
+  "keywords": ["sage", "tdah", "neuropsicologia", "api", "autogestao"],
+  "author": "Petrucio Barros",
+  "license": "MIT"
+}
